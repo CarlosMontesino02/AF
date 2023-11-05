@@ -25,26 +25,37 @@ Crearemos dos USB, en uno realizaremos la adquisición de RAM junto al triaje  y
 ### Memoria volátil y triaje
 
 La primera parte es realizar el triaje y la adquisición de RAM, he seleccionado la herramienta **IRTiage** ya que con ella podemos hacer las dos de forma simultánea, esta herramienta se encuentra dentro de nuestro USB y al ejecutarla veremos lo siguiente:
+
 ![foto](img/ad2.png)
+
 Como vemos, hacemos la adquisición en nuestra unidad USB. Tras rellenar información sobre el caso realizamos el triaije seleccionando la información que queremos adquirir.
+
 ![foto](img/ad3.png)
-![foto](img/ad4.png) ![foto](img/ad5.png)
+![foto](img/ad4.png) 
+![foto](img/ad5.png)
 
 Como vemos podemos seleccionar varias casillas , indicando que información queremos extraer, en mi caso sacaré el máximo posible, lo que incluye una imagen de la memoria RAM.
+
 Al darle al botón "Run" comienza el proceso y al terminar se nos crea en nuestro USB la siguiente estructura de directorios, donde se encuentra la información seleccionada del sistema:
+
 ![foto](img/ad6.png)
 ![foto](img/ad7.png)
 ![foto](img/ad8.png)
+
 Como vemos tenemos información de CVEs encontrados, nuestra adquisición de memoria en la carpeta "Memory", información de registros, logs y más información del sistema en "Collected" como los usuarios y procesos. Además en la carpeta anterior tenemos todos los hashes de cada archivo extraído.
 
 Otra herramienta que podríamos usar para elegir el formato en el que queremos la captura de la memória RAM es **Ram Capture** que también tenemos instalda en nuestro USB. EL proceso sería el siguiente:
+
 ![foto](img/ad9.png)
 
 ### Memoria no volátil
 
 La herramienta que ussaremos será FTKImager, crearemos uns egundo USB con una capacidad mayor a la del disco del sistema, dentro del USB tendremos isntalado la herramienta.
+
 ![foto](img/ad10.png)
+
 Así se visualizan los dos USB, y el disco de la máquina.
+
 ![foto](img/ad11.png)
 
 Dentro del segundo USB tenemos:
@@ -55,10 +66,11 @@ Iniciamos la aplicación y seleccionamos que vamos a hacer la adquisición de nu
 
 
 ![foto](img/ad14.png)
-
 ![foto](img/ad15.png)
 ![foto](img/ad16.png)
 ![foto](img/ad17.png)
+
 Al terminar todo el proceso observamos que los hash de la copia coinciden, y que en nuestra unidad USB se han creado los diferentes bloques y un archivo txt con información sobre la adquisición.
+
 ![foto](img/ad19.png)
 ![foto](img/ad20.png)
