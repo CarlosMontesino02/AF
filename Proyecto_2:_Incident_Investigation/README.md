@@ -81,6 +81,7 @@ Realizaremos la adquisición de información de red de nuestro dispositivo usand
 En esta parte solo seleccionaremos la información de red.
 
 ![Primera foto](img/56.jpeg)
+
 ![Primera foto](img/57.jpeg)
 
 Al terminar la adquisición he obtenido los hash de un fichero zip que contiene las diferentes recolecciones obtenidas.
@@ -115,6 +116,7 @@ Cuando empieza la adquisición vemos como van apareciendo diferentes archivos e 
 ![Primera foto](img/9.jpeg)
 
 Tras la adquisición, he creado un zip con toda la información en su interior y he obtenido tanto el hash MD5 como el SHA1 para asegurar su integridad.
+
 ![Primera foto](img/19.jpeg)
 
 ### RAM  | (Evidencia 0002)
@@ -129,15 +131,21 @@ Para la adquisición de la RAM vamos a utilizar Belkasoft Live RAM CapturerVersi
 
 Tras esto he utilizado el siguiente comando para obtener los hash de la memoria capturada, tanto el MD5 como el SHA-1, para añadirlo a los documentos que contienen información para la cadena de custodia.
 
-![Primera foto](img/12.jpeg)![Primera foto](img/13.jpeg)
+![Primera foto](img/12.jpeg)
+
+![Primera foto](img/13.jpeg)
 
 ### Clonación de disco virtual | (Evidencia 0001)
 Tras la adquisición de la memoria volátil, voy a realizar una de la memoria no volátil, en este caso utilizaremos FTK Imager Versión: 4.2.0.13, realizaremos una adquisición de la imagen del disco, para su posterior almacenamiento y análisis. La herramienta se ejecuta desde el host anfitrión.
 
-![Primera foto](img/14.jpeg)![Primera foto](img/15.jpeg) 
+![Primera foto](img/14.jpeg)
+
+![Primera foto](img/15.jpeg) 
 Selecciono la salida en la carpeta de docuemntos, junto a la adquisición realizada con Autopsy. Además realizo la verificación de la imagen y uso el cifrado AD, el cual protegerá  la evidencia con una frase de paso, en este caso: **For_10_Ensic!**
 
-![Primera foto](img/16.jpeg)![Primera foto](img/17.jpeg)
+![Primera foto](img/16.jpeg)
+
+![Primera foto](img/17.jpeg)
 
 Tras la adquisición completa obtenemos los hash MD5 Y SHA1 verificados.
 
@@ -146,4 +154,5 @@ Tras la adquisición completa obtenemos los hash MD5 Y SHA1 verificados.
 ### Almacenamiento y transporte de vestigios
 
 Tras la adquisición de los mismos, quedan almacenados en un sistema seguro, con la realización de copias de los mismos, se apaga la máquina creando un Snapshot de la misma posteriormente. Las evidencias se gurdan ordenadamente con toda la información necesaria y se envían a través de Google Drive para la finalización de esta tarea.
+
 ![[33.png]]
