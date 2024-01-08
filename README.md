@@ -1,2 +1,2 @@
 # AF
-Tareas individuañes de análisis forense.
+Tareas individuales de análisis forense.
