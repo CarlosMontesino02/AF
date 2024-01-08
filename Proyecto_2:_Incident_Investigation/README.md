@@ -125,4 +125,4 @@ Tras la adquisición completa obtenemos los hash MD5 Y SHA1 verificados.
 
 Tras la adquisición de los mismos, quedan almacenados en un sistema seguro, con la realización de copias de los mismos, se apaga la máquina creando un Snapshot de la misma posteriormente. Las evidencias se gurdan ordenadamente con toda la información necesaria y se envían a través de Google Drive para la finalización de esta tarea.
 
-![[33.png]]
+![Primera foto](img/33.png)
