@@ -88,36 +88,6 @@ Al terminar la adquisición he obtenido los hash de un fichero zip que contiene 
 
 ![Primera foto](img/58.jpeg)
 
-### Sistema de ficheros | (Evidencia 0003)
-Ahora vamos a hacer la adquisición con la herramienta Autopsy versión 4.21.0, instalada en nuestro sistema anfitrión, donde seleccionaremos el archivo que contiene el disco de la máquina virtual. La adquisición se creará en nuestro propio disco duro, en la carpeta Documents.
-
-
-
-Rellenamos la información sobre el caso, especificamos el nombre del examinador, y damos información adicional.
-
-![Primera foto](img/3.jpeg)
-
-Seleccionamos realizar la adquisición de una imagen de disco o máquina virtual.
-
-![Primera foto](img/4.jpeg)
-
-La ruta será la del disco "FORENSIC_10_disk0.vmdk", que es el disco conectado a la máquina virtual.
-
-![Primera foto](img/5.jpeg)
-
-Ahora seleccionamos los módulos que vamos  a utilizar para realizar la adquisición, en mi caso los seleccioné todos, aunque los de Android y iOS podrían ser omitidos.
-
-![Primera foto](img/6.jpeg)
-
-![Primera foto](img/8.jpeg)
-
-Cuando empieza la adquisición vemos como van apareciendo diferentes archivos e información sacada del sistema de archivos de la máquian virtual mientras está en vivo, además se consiguen **los hashes** de estos archivos. También conseguimos aplicaciones instaladas y procesos en ejecución. Incluso archivos borrados, dispositivos conectados etc.
-
-![Primera foto](img/9.jpeg)
-
-Tras la adquisición, he creado un zip con toda la información en su interior y he obtenido tanto el hash MD5 como el SHA1 para asegurar su integridad.
-
-![Primera foto](img/19.jpeg)
 
 ### RAM  | (Evidencia 0002)
 
